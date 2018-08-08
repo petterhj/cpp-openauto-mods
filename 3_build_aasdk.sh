@@ -30,5 +30,5 @@ echo "> Running cmake for aasdk"
 
 cmake -DCMAKE_BUILD_TYPE=Release $AASDK_SOURCE_DIR
 
-echo "> Making make for aasdk"
+echo "> Running make for aasdk"
 make
