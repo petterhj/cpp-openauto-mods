@@ -19,7 +19,7 @@ fi
 
 # Create build directory
 echo "> Creating build directory for aasdk"
-mkdir -p $AASDK_BUILD_DIR
+mkdir $AASDK_BUILD_DIR
 
 # Change directory
 echo "> Changing directory to $AASDK_BUILD_DIR"
