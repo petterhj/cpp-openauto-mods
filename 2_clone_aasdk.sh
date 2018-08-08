@@ -26,4 +26,4 @@ cd $WORK_DIR
 # Clone git repository
 echo "> Cloning $AASDK_REPO [$AASDK_BRANCH]"
 
-git clone -b master https://github.com/opencardev/aasdk.git
+git clone -b $AASDK_BRANCH $AASDK_REPO
