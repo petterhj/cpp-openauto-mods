@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "================================================================"
-echo "Step 2: Clone openauto repository"
+echo "Step 5: Clone openauto repository"
 echo "================================================================"
 
 WORK_DIR=$HOME/openauto
