@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "================================================================"
-echo "Step 8: Update crankshaft"
+echo "Step 8: Collect built files"
 echo "================================================================"
 
 WORK_DIR=$HOME/openauto
@@ -10,8 +10,6 @@ AASDK_BUILD_DIR=$WORK_DIR/aasdk_build
 OPENAUTO_SOURCE_DIR=$WORK_DIR/openauto
 OPENAUTO_BUILD_DIR=$WORK_DIR/openauto_build
 COLLECT_DIR=$WORK_DIR/collected
-TARGET_SYSTEM=pi@192.167.1.17
-TARGET_PATH=/home/pi
 
 echo "> Working directory: $WORK_DIR"
 echo "> Collect directory: $COLLECT_DIR"
