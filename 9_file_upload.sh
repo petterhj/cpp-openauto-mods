@@ -6,7 +6,7 @@ echo "================================================================"
 
 WORK_DIR=$HOME/openauto
 COLLECT_DIR=$WORK_DIR/collected
-TARGET_SYSTEM=pi@192.167.1.17
+TARGET_SYSTEM=pi@192.168.1.17
 TARGET_PATH=/home/pi
 
 echo "> Working directory: $WORK_DIR"
